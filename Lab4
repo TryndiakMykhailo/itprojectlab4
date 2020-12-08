@@ -1,0 +1,15 @@
+const exspress = require('exspress');
+const app = express();
+const Joi = require('@hapi/joi');
+const movies = require('./movies);
+
+app.use(express.json());
+
+app.use('/abc',movies);
+
+
+app.get('/',(req,res) => {
+res.send('Лабораторна робота 4 коримкрмлкмтлк');
+res send('hjbjhjn');
+
+})
